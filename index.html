@@ -1805,8 +1805,15 @@ html{scroll-padding-top:150px}
   .s12 .bxheadr{flex-direction:column;gap:10px}
 }
 </style>
+<style>
+/* badge logos: larger, and a dark tile for white-on-transparent logos (WASC) */
+.bxtrust b img{height:28px}
+.bxtrust b img.bx-logo-dark{background:#023644;border-right:0;border-radius:5px;padding:3px 7px;box-sizing:content-box;height:24px}
+@media(max-width:420px){.bxtrust b img{height:23px}.bxtrust b img.bx-logo-dark{height:19px;padding:3px 6px}}
+.qb .qb-acc-row li.qb-acc-dark{background:#16191B;border:1px solid #2E3337}
+</style>
 </head>
-<body class="s4">
+<body class="s3">
 <a class="skip-link" href="#main">Skip to main content</a>
 <svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
 <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></symbol>
@@ -1916,7 +1923,7 @@ html{scroll-padding-top:150px}
       <span class="bxchip"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.6 11.2V4.4h6.8l9.6 9.6-6.8 6.8z"/><circle cx="7.4" cy="8" r="1.5"/></svg>Written by the school</span>
       <h1 id="bx-h1">The QISS Blog</h1>
       <p class="bxdeck">Practical writing for parents, published by the school itself. Child development, school life, and growing up in an international classroom in Qingdao.</p>
-      <span class="bxtrust"><b><img src="https://www.qiss.org.cn/wp-content/uploads/2024/12/WASC.webp" alt="" width="256" height="97" loading="lazy" decoding="async" data-drop>WASC <span>accredited</span></b><b><img src="https://www.qiss.org.cn/wp-content/uploads/2025/09/CIS-QISS.webp" alt="" width="166" height="90" loading="lazy" decoding="async" data-drop>CIS <span>accredited</span></b><b><img src="https://www.qiss.org.cn/wp-content/uploads/2025/09/earcos-QISS-1.webp" alt="" width="265" height="90" loading="lazy" decoding="async" data-drop>EARCOS <span>member</span></b><b><img src="https://www.qiss.org.cn/wp-content/uploads/2025/09/acamis.webp" alt="" width="148" height="84" loading="lazy" decoding="async" data-drop>ACAMIS <span>member</span></b><b><img src="https://www.qiss.org.cn/wp-content/uploads/2025/09/ISS-QISS.webp" alt="" width="494" height="95" loading="lazy" decoding="async" data-drop>ISS <span>member</span></b></span>
+      <span class="bxtrust"><b><img class="bx-logo-dark" src="https://www.qiss.org.cn/wp-content/uploads/2024/12/WASC.webp" alt="" width="256" height="97" loading="lazy" decoding="async" data-drop>WASC <span>accredited</span></b><b><img src="https://www.qiss.org.cn/wp-content/uploads/2025/09/CIS-QISS.webp" alt="" width="166" height="90" loading="lazy" decoding="async" data-drop>CIS <span>accredited</span></b><b><img src="https://www.qiss.org.cn/wp-content/uploads/2025/09/earcos-QISS-1.webp" alt="" width="265" height="90" loading="lazy" decoding="async" data-drop>EARCOS <span>member</span></b><b><img src="https://www.qiss.org.cn/wp-content/uploads/2025/09/acamis.webp" alt="" width="148" height="84" loading="lazy" decoding="async" data-drop>ACAMIS <span>member</span></b><b><img src="https://www.qiss.org.cn/wp-content/uploads/2025/09/ISS-QISS.webp" alt="" width="494" height="95" loading="lazy" decoding="async" data-drop>ISS <span>member</span></b></span>
     </div>
     <div class="bxheadr">
       <span class="bxfacek"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="8.4" r="3.2"/><path d="M3.2 19c0-3.2 2.6-5.2 5.8-5.2s5.8 2 5.8 5.2"/><circle cx="17.4" cy="9.4" r="2.6"/><path d="M16 14c2.9 0 4.8 1.8 4.8 4.6"/></svg>Every post on this page is by</span>
@@ -2244,7 +2251,7 @@ html{scroll-padding-top:150px}
 <div class="qb" id="qbShellFoot">
 <footer class="qb-foot"><div class="qb-wrap">
 <div class="qb-foot__top"><div><h3>Ready for the next step?</h3><p>Apply online, share feedback, or talk to our team.</p></div><div class="qb-foot__btns"><a class="qb-btn qb-btn--orange" href="https://www.qiss.org.cn/admissions/application-process/"><svg class="qb-i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3H6a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V8z"/><path d="M14 3v5h5M9 13h6M9 17h6"/></svg> Apply Now</a><a class="qb-btn qb-btn--slate" href="https://www.qiss.org.cn/feedback/"><svg class="qb-i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z"/></svg> Feedback</a><a class="qb-btn qb-btn--line" href="https://www.qiss.org.cn/contact-us/"><svg class="qb-i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 3h4l2 5-2.5 1.5a11 11 0 0 0 6 6L16 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 5a2 2 0 0 1 2-2z"/></svg> Contact</a></div></div>
-<div class="qb-acc-row"><p>Accredited &amp; recognised worldwide</p><ul><li><img src="https://www.qiss.org.cn/wp-content/uploads/2025/09/ISS-QISS-300x58.webp" alt="ISS Logo on QISS Website" loading="lazy"></li><li><img src="https://www.qiss.org.cn/wp-content/uploads/2024/12/WASC.webp" alt="QISS WASC Accreditation" loading="lazy"></li><li><img src="https://www.qiss.org.cn/wp-content/uploads/2025/09/earcos-QISS-1.webp" alt="EARCOS logo" loading="lazy"></li><li><img src="https://www.qiss.org.cn/wp-content/uploads/2025/09/CIS-QISS.webp" alt="We are CIS Accredited School" loading="lazy"></li><li><img src="https://www.qiss.org.cn/wp-content/uploads/2025/09/acamis.webp" alt="ACAMIS logo" loading="lazy"></li></ul></div>
+<div class="qb-acc-row"><p>Accredited &amp; recognised worldwide</p><ul><li><img src="https://www.qiss.org.cn/wp-content/uploads/2025/09/ISS-QISS-300x58.webp" alt="ISS Logo on QISS Website" loading="lazy"></li><li class="qb-acc-dark"><img src="https://www.qiss.org.cn/wp-content/uploads/2024/12/WASC.webp" alt="QISS WASC Accreditation" loading="lazy"></li><li><img src="https://www.qiss.org.cn/wp-content/uploads/2025/09/earcos-QISS-1.webp" alt="EARCOS logo" loading="lazy"></li><li><img src="https://www.qiss.org.cn/wp-content/uploads/2025/09/CIS-QISS.webp" alt="We are CIS Accredited School" loading="lazy"></li><li><img src="https://www.qiss.org.cn/wp-content/uploads/2025/09/acamis.webp" alt="ACAMIS logo" loading="lazy"></li></ul></div>
 <div class="qb-foot__main">
 <div class="qb-foot__brand"><div class="logos"><img src="https://www.qiss.org.cn/wp-content/uploads/2021/11/Qingdao-No1-International-School-logo-150x150.webp" alt="Qingdao No.1 International School" loading="lazy"><img src="https://www.qiss.org.cn/wp-content/uploads/2021/11/QISS-Logo-For-Website-300x134.webp" alt="Logo of QISS" loading="lazy"></div>
 <p>QISS is the top choice international school in Shandong, China.<br>Qingdao No.1 International School Of Shandong Province (QISS)<br>山东省青岛第一国际学校</p>
